@@ -1,5 +1,5 @@
 export const siteConfig = {
   defaultLocale: 'en',
-  description: 'A template for Saas applications',
-  title: 'Saas Template',
+  description: 'A starter kit for saas applications',
+  title: 'Saas Starter',
 };

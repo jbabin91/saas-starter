@@ -2,10 +2,9 @@ name: CI
 
 on:
   push:
-  pull_request:
 
 jobs:
-  ci:
+  CI:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source code

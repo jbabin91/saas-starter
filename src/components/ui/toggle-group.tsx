@@ -5,7 +5,7 @@ import * as React from 'react';
 import { type VariantProps } from 'tailwind-variants';
 
 import { toggleVariants } from '@/components/ui/toggle';
-import { cn } from '@/lib/utils';
+import { cn } from '@/libs/utils';
 
 const ToggleGroupContext = React.createContext<
   VariantProps<typeof toggleVariants>

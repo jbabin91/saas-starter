@@ -1,0 +1,32 @@
+name: Chromatic
+
+on:
+  push:
+    branches-ignore:
+      - 'dev'
+      - 'main'
+      - 'dependabot/**'
+      - 'renovate/**'
+  pull_request:
+    branches:
+      - main
+      - dev
+
+jobs:
+  chromatic:
+    name: Chromatic
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install Dependencies
+        uses: ./.github/actions/pnpm-install
+      - name: Run Chromatic
+        uses: chromaui/action@v1
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          autoAcceptChanges: 'dev'
+          zip: true
+          skip: '@(renovate/**|dependabot/**)'

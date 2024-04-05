@@ -65,6 +65,17 @@ module.exports = {
         'react/no-unknown-property': 'off',
       },
     },
+    {
+      extends: ['plugin:storybook/recommended'],
+      files: [
+        '**/.storybook/*.ts?(x)',
+        '**/*.stories.ts?(x)',
+        '**/stories/*.ts?(x)',
+      ],
+      rules: {
+        'react/no-unknown-property': 'off',
+      },
+    },
   ],
   plugins: ['import', 'simple-import-sort', 'sort-keys-fix'],
   reportUnusedDisableDirectives: true,

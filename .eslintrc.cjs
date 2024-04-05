@@ -59,6 +59,12 @@ module.exports = {
         react: { version: 'detect' },
       },
     },
+    {
+      files: ['**/components/ui/*.tsx'],
+      rules: {
+        'react/no-unknown-property': 'off',
+      },
+    },
   ],
   plugins: ['import', 'simple-import-sort', 'sort-keys-fix'],
   reportUnusedDisableDirectives: true,
@@ -80,6 +86,7 @@ module.exports = {
         },
       },
     ],
+    'unicorn/no-null': 'off',
     'unicorn/prevent-abbreviations': 'off',
   },
 };

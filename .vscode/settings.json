@@ -1,0 +1,25 @@
+{
+  "[json][jsonc][yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.removeUnusedImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "typescript.enablePromptUseWorkspaceTsdk": true, // For security reasons it's required that users opt into using the workspace version of TypeScript
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    // useRouter should be imported from `next/router` instead of `next/router`
+    "next/router.d.ts",
+    "next/dist/client/router.d.ts",
+    // give priority for Link to `next/link` instead of `lucide-react`
+    "lucide-react"
+  ],
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "typescript.preferences.preferTypeOnlyAutoImports": true, // Prefer type-only imports
+  "typescript.tsdk": "node_modules/typescript/lib" // Use the workspace version of TypeScript
+}

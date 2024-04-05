@@ -23,6 +23,8 @@ jobs:
           fetch-depth: 0
       - name: Install Dependencies
         uses: ./.github/actions/pnpm-install
+      - name: Copy Environment Variables
+        run: cp .env.example .env
       - name: Run Chromatic
         uses: chromaui/action@v11
         with:

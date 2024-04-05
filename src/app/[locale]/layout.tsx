@@ -11,6 +11,22 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   icons: [
     {
+      rel: 'apple-touch-icon',
+      url: '/apple-touch-icon.png',
+    },
+    {
+      rel: 'icon',
+      sizes: '32x32',
+      type: 'image/png',
+      url: '/favicon-32x32.png',
+    },
+    {
+      rel: 'icon',
+      sizes: '16x16',
+      type: 'image/png',
+      url: '/favicon-16x16.png',
+    },
+    {
       rel: 'icon',
       url: '/favicon.ico',
     },

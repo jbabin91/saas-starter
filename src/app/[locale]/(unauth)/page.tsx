@@ -1,6 +1,23 @@
 import Image from 'next/image';
+import { getTranslations } from 'next-intl/server';
 
 import { ModeToggle } from '@/components/mode-toggle';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { locale: string };
+}) {
+  const t = await getTranslations({
+    locale: params.locale,
+    namespace: 'Home',
+  });
+
+  return {
+    description: t('meta_description'),
+    title: t('meta_title'),
+  };
+}
 
 export default function Home() {
   return (

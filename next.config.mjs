@@ -1,6 +1,7 @@
 import './src/libs/env.mjs';
 
 import withBundleAnalyzer from '@next/bundle-analyzer';
+import withNextIntl from 'next-intl/plugin';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -12,4 +13,6 @@ const bundleAnalyzer = withBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 });
 
-export default bundleAnalyzer(nextConfig);
+const withNextIntlConfig = withNextIntl('./src/libs/i18n.ts');
+
+export default bundleAnalyzer(withNextIntlConfig(nextConfig));

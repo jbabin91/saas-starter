@@ -1,3 +1,20 @@
+# [1.2.0](https://github.com/jbabin91/saas-starter/compare/v1.1.0...v1.2.0) (2024-04-05)
+
+
+### Bug Fixes
+
+* :bug: update commitlint config ([b4f4da5](https://github.com/jbabin91/saas-starter/commit/b4f4da502ea7426d62c4906cf38539745d7b63f2))
+
+
+### Features
+
+* :sparkles: add basic setup for storybook ([48a4be7](https://github.com/jbabin91/saas-starter/commit/48a4be7bad409af1a735542661bd7398488f53ca))
+* :sparkles: add i18n to project ([b9f29c5](https://github.com/jbabin91/saas-starter/commit/b9f29c5565fa68d78721ceba1e72b3c5017a50e7))
+* :sparkles: add license to project ([81542bb](https://github.com/jbabin91/saas-starter/commit/81542bbdb3324eefbdc72f627625aab6c1b31f14))
+* :sparkles: add tailwind css classes and theme toggle to storybook ([a9f28af](https://github.com/jbabin91/saas-starter/commit/a9f28afad7a6ef877baa6724e7a222e85f5d5bc5))
+* :sparkles: delete storybook example button and create story for shadcn button ([71f3199](https://github.com/jbabin91/saas-starter/commit/71f319999dd741e5e144a69266e0d9ffe83ba9b5))
+* :sparkles: update application icons ([f76e771](https://github.com/jbabin91/saas-starter/commit/f76e77166c53b8c7b629e0ff2a961a698d8b6f5e))
+
 # [1.1.0](https://github.com/jbabin91/saas-starter/compare/v1.0.0...v1.1.0) (2024-04-05)
 
 

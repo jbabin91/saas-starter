@@ -16,8 +16,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-git",
-      "czConfig": "./.commitlintrc.cjs"
+      "path": "node_modules/cz-git"
     }
   },
   "dependencies": {
@@ -26,13 +25,26 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^19.1.0",
     "@types/node": "^20.12.4",
     "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.24",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
     "autoprefixer": "^10.4.19",
+    "commitlint": "^19.2.1",
     "cz-git": "^1.9.1",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.1.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^12.0.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-tailwindcss": "^3.15.1",
+    "eslint-plugin-unicorn": "^52.0.0",
     "husky": "^9.0.11",
     "is-ci": "^3.0.1",
     "lint-staged": "^15.2.2",
@@ -40,6 +52,6 @@
     "prettier": "^3.2.5",
     "prettier-plugin-packagejson": "^2.4.14",
     "tailwindcss": "^3.4.3",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.4"
   }
 }

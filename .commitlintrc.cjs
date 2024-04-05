@@ -1,13 +1,20 @@
 /** @type {import("cz-git").UserConfig} */
 module.exports = {
-  alias: {
-    b: 'chore: :hammer: bump dependencies',
+  extends: ['@commitlint/config-conventional'],
+  rules: {
+    'subject-min-length': [2, 'always', 2],
+    'subject-empty': [2, 'never'],
   },
-  maxSubjectLength: 100,
-  allowCustomIssuePrefix: false,
-  allowEmptyIssuePrefix: false,
   prompt: {
-    useEmoji: true,
+    alias: {
+      b: 'chore: :hammer: bump dependencies',
+    },
+    maxSubjectLength: 100,
+    allowCustomIssuePrefix: false,
+    allowEmptyIssuePrefix: false,
+    prompt: {
+      useEmoji: true,
+    },
+    skipQuestions: ['footer', 'scope'],
   },
-  skipQuestions: ['footer', 'scope'],
 };

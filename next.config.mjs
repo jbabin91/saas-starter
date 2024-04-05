@@ -1,3 +1,5 @@
+import './src/libs/env.mjs';
+
 import withBundleAnalyzer from '@next/bundle-analyzer';
 
 /** @type {import('next').NextConfig} */

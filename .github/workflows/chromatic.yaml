@@ -24,7 +24,7 @@ jobs:
       - name: Install Dependencies
         uses: ./.github/actions/pnpm-install
       - name: Run Chromatic
-        uses: chromaui/action@v1
+        uses: chromaui/action@v11
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           autoAcceptChanges: 'dev'

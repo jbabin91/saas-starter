@@ -30,9 +30,13 @@ yarn-error.log*
 .env*.local
 !.env.example
 
-# vercel
-.vercel
+# storybook
+storybook-static
+*storybook.log
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# vercel
+.vercel

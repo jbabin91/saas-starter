@@ -12,9 +12,7 @@ module.exports = {
     maxSubjectLength: 100,
     allowCustomIssuePrefix: false,
     allowEmptyIssuePrefix: false,
-    prompt: {
-      useEmoji: true,
-    },
     skipQuestions: ['footer', 'scope'],
+    useEmoji: true,
   },
 };

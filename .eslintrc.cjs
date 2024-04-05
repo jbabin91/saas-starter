@@ -20,6 +20,7 @@ module.exports = {
           'error',
           { fixStyle: 'inline-type-imports', prefer: 'type-imports' },
         ],
+        '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-unsafe-argument': 'off',
         '@typescript-eslint/no-unsafe-assignment': 'off',
         '@typescript-eslint/no-unsafe-call': 'off',
@@ -61,6 +62,17 @@ module.exports = {
     },
     {
       files: ['**/components/ui/*.tsx'],
+      rules: {
+        'react/no-unknown-property': 'off',
+      },
+    },
+    {
+      extends: ['plugin:storybook/recommended'],
+      files: [
+        '**/.storybook/*.ts?(x)',
+        '**/*.stories.ts?(x)',
+        '**/stories/*.ts?(x)',
+      ],
       rules: {
         'react/no-unknown-property': 'off',
       },

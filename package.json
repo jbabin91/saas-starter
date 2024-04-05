@@ -2,6 +2,7 @@
   "name": "saas-boilerplate",
   "version": "1.1.0",
   "private": true,
+  "license": "MIT",
   "author": "jbabin91 (https://github.com/jbabin91)",
   "scripts": {
     "build": "next build",
@@ -10,6 +11,7 @@
     "build-storybook": "storybook build",
     "chromatic": "chromatic",
     "clean": "rm -rf .next .swc node_modules out coverage",
+    "commit": "czg",
     "dev": "next dev",
     "format": "prettier -uw --cache .",
     "format:check": "prettier -uc --cache .",

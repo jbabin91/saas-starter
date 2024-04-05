@@ -1,7 +1,7 @@
 /** @type {import("cz-git").UserConfig} */
 module.exports = {
   alias: {
-    b: "chore: :hammer: bump dependencies",
+    b: 'chore: :hammer: bump dependencies',
   },
   maxSubjectLength: 100,
   allowCustomIssuePrefix: false,
@@ -9,5 +9,5 @@ module.exports = {
   prompt: {
     useEmoji: true,
   },
-  skipQuestions: ["footer", "scope"],
+  skipQuestions: ['footer', 'scope'],
 };

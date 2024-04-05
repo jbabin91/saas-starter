@@ -13,5 +13,7 @@ jobs:
         uses: ./.github/actions/pnpm-install
       - name: Branch Checks
         uses: ./.github/actions/branch-checks
+      - name: Copy Environment Variables
+        run: cp .env.example .env
       - name: Build App
         uses: ./.github/actions/build-app

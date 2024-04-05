@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/jbabin91/saas-starter/compare/v1.0.0...v1.1.0) (2024-04-05)
+
+
+### Features
+
+* add env checks ([c0c7c2b](https://github.com/jbabin91/saas-starter/commit/c0c7c2b254b0356fe6857ada693bb4a170086b75))
+
 # 1.0.0 (2024-04-05)
 
 

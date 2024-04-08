@@ -15,6 +15,7 @@ export const siteConfig = {
       name: 'Français',
     },
   ],
+  name: 'SaaS Starter',
 };
 
 export const AllLocales = siteConfig.locales.map((locale) => locale.id);

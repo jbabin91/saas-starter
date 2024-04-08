@@ -1,6 +1,6 @@
-import { TwitterIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
+import { Icons } from '@/components/icons';
 import { CenteredHero } from '@/components/layout/centered-hero';
 import { Section } from '@/components/layout/section';
 import { buttonVariants } from '@/components/ui/Button';
@@ -15,8 +15,8 @@ export function Hero() {
           href: 'https://twitter.com/jbabin91',
           text: (
             <>
-              <TwitterIcon className="mr-1 size-5" />
-              {t('follow_twitter')}
+              <Icons.X className="mr-1 size-5" />
+              {t('follow_on_x')}
             </>
           ),
         }}

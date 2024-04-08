@@ -13,7 +13,7 @@
     "company": "Company"
   },
   "Hero": {
-    "follow_twitter": "Follow @jbabin91 on Twitter",
+    "follow_on_x": "Follow @jbabin91 on X",
     "title": "The perfect <important>SaaS template</important> to build and scale your business with ease.",
     "description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS.",
     "primary_button": "Get Started",

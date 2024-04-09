@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-import { LocaleSwitcher } from '../locale-switcher';
-import { Logo } from '../logo';
-import { ModeToggle } from '../mode-toggle';
-import { buttonVariants } from '../ui/Button';
+import { LocaleSwitcher } from '@/components/locale-switcher';
+import { Logo } from '@/components/logo';
+import { ModeToggle } from '@/components/mode-toggle';
+import { buttonVariants } from '@/components/ui/Button';
 
 export function Navbar() {
   const t = useTranslations('Navbar');

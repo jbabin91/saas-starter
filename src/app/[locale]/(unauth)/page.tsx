@@ -1,7 +1,5 @@
 import { getTranslations } from 'next-intl/server';
 
-import { Footer } from '@/components/layout/footer';
-import { Navbar } from '@/components/layout/nav-bar';
 import { CTA } from '@/features/landing/components/cta';
 import { FAQ } from '@/features/landing/components/faq';
 import { Features } from '@/features/landing/components/Features';
@@ -26,16 +24,12 @@ export async function generateMetadata({
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <main>
-        <Hero />
-        <Features />
-        <Pricing />
-        <FAQ />
-        <CTA />
-      </main>
-      <Footer />
-    </>
+    <main>
+      <Hero />
+      <Features />
+      <Pricing />
+      <FAQ />
+      <CTA />
+    </main>
   );
 }

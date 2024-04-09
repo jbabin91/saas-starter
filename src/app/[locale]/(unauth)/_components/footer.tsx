@@ -1,10 +1,9 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
+import { Icons } from '@/components/icons';
+import { Logo } from '@/components/logo';
 import { siteConfig } from '@/configs/siteConfig';
-
-import { Icons } from '../icons';
-import { Logo } from '../logo';
 
 export function Footer() {
   const t = useTranslations('Footer');

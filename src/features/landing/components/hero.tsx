@@ -23,7 +23,7 @@ export function Hero() {
       <div className="mt-3 text-center text-5xl font-bold tracking-tight">
         {t.rich('title', {
           important: (chunks) => (
-            <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
               {chunks}
             </span>
           ),

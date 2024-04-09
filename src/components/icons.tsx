@@ -18,6 +18,8 @@ import {
   XIcon,
 } from 'lucide-react';
 
+import { cn } from '@/libs/utils';
+
 export type Icon = LucideIcon;
 
 export const Icons = {
@@ -44,6 +46,25 @@ export const Icons = {
   ChevronUp: ChevronUpIcon,
   Circle: CircleIcon,
   Close: XIcon,
+  Cube: ({ className, ...props }: LucideProps) => (
+    <svg
+      aria-hidden="true"
+      className={cn('stroke-primary-foreground stroke-2', className)}
+      data-icon="cube"
+      fill="none"
+      focusable="false"
+      role="img"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <title>Cube</title>
+      <path d="M0 0h24v24H0z" stroke="none" />
+      <path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3M12 12l8-4.5M12 12v9M12 12L4 7.5" />
+    </svg>
+  ),
   Dot: DotIcon,
   Facebook: ({ ...props }: LucideProps) => (
     <svg

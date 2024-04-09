@@ -4,7 +4,7 @@ import { Footer } from '@/components/layout/footer';
 import { Navbar } from '@/components/layout/nav-bar';
 import { CTA } from '@/features/landing/components/cta';
 import { FAQ } from '@/features/landing/components/faq';
-import { Features } from '@/features/landing/components/features';
+import { Features } from '@/features/landing/components/Features';
 import { Hero } from '@/features/landing/components/hero';
 import { Pricing } from '@/features/landing/components/pricing';
 

@@ -5,18 +5,37 @@ import { LocaleSwitcher } from '../locale-switcher';
 import { Logo } from '../logo';
 import { ModeToggle } from '../mode-toggle';
 import { buttonVariants } from '../ui/Button';
-import { CenteredMenu } from './centered-menu';
-import { Section } from './section';
 
 export function Navbar() {
   const t = useTranslations('Navbar');
 
   return (
-    <Section className="px-3 py-6">
-      <CenteredMenu
-        logo={<Logo />}
-        rightMenu={
-          <>
+    <div className="mx-auto max-w-screen-lg px-3 py-6">
+      <div className="flex items-center justify-between">
+        <Link href="/">
+          <Logo />
+        </Link>
+        <nav>
+          <ul className="flex flex-row items-center gap-x-6 text-lg font-medium [&_li:hover]:opacity-100 [&_li]:opacity-60">
+            <li>
+              <Link href="/">{t('product')}</Link>
+            </li>
+            <li>
+              <Link href="/">{t('docs')}</Link>
+            </li>
+            <li>
+              <Link href="/">{t('blog')}</Link>
+            </li>
+            <li>
+              <Link href="/">{t('community')}</Link>
+            </li>
+            <li>
+              <Link href="/">{t('company')}</Link>
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <ul className="flex flex-row items-center gap-x-4 text-lg font-medium [&_li:not(:last-child):hover]:opacity-100 [&_li:not(:last-child)]:opacity-60">
             <li>
               <LocaleSwitcher />
             </li>
@@ -31,25 +50,9 @@ export function Navbar() {
                 {t('sign_up')}
               </Link>
             </li>
-          </>
-        }
-      >
-        <li>
-          <Link href="/">{t('product')}</Link>
-        </li>
-        <li>
-          <Link href="/">{t('docs')}</Link>
-        </li>
-        <li>
-          <Link href="/">{t('blog')}</Link>
-        </li>
-        <li>
-          <Link href="/">{t('community')}</Link>
-        </li>
-        <li>
-          <Link href="/">{t('company')}</Link>
-        </li>
-      </CenteredMenu>
-    </Section>
+          </ul>
+        </div>
+      </div>
+    </div>
   );
 }

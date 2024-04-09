@@ -5,13 +5,12 @@ import { siteConfig } from '@/configs/siteConfig';
 
 import { Icons } from '../icons';
 import { Logo } from '../logo';
-import { Section } from './section';
 
 export function Footer() {
   const t = useTranslations('Footer');
 
   return (
-    <Section className="pb-16 pt-0">
+    <div className="mx-auto max-w-screen-lg pb-16 pt-0">
       <div className="flex flex-col items-center text-center">
         <Logo />
         <ul className="mt-4 flex flex-row gap-x-8 text-lg [&_li:hover]:opacity-100 [&_li]:opacity-60">
@@ -84,6 +83,6 @@ export function Footer() {
           </li>
         </ul>
       </div>
-    </Section>
+    </div>
   );
 }

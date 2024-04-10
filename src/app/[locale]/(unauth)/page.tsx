@@ -1,10 +1,10 @@
 import { getTranslations } from 'next-intl/server';
 
-import { CTA } from '@/features/landing/components/cta';
-import { FAQ } from '@/features/landing/components/faq';
-import { Features } from '@/features/landing/components/Features';
-import { Hero } from '@/features/landing/components/hero';
-import { Pricing } from '@/features/landing/components/Pricing';
+import { CTA } from '@/app/[locale]/(unauth)/_components/cta';
+import { FAQ } from '@/app/[locale]/(unauth)/_components/faq';
+import { Features } from '@/app/[locale]/(unauth)/_components/Features';
+import { Hero } from '@/app/[locale]/(unauth)/_components/hero';
+import { Pricing } from '@/app/[locale]/(unauth)/_components/Pricing';
 
 export async function generateMetadata({
   params,

@@ -10,7 +10,7 @@ export function Pricing() {
   const t = useTranslations('Pricing');
 
   return (
-    <div className="px-3 py-16">
+    <div className="mx-10 max-w-screen-sm px-3 py-16 md:max-w-screen-lg lg:mx-auto">
       <div className="mx-auto mb-12 max-w-screen-md text-center">
         <div className="bg-gradient-to-r from-red-400 via-purple-400 to-blue-400 bg-clip-text text-sm font-bold text-transparent">
           {t('section_subtitle')}

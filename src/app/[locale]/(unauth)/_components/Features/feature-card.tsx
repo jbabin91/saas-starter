@@ -8,7 +8,7 @@ export function FeatureCard({
   children: React.ReactNode;
 }) {
   return (
-    <div className="rounded-xl border border-border bg-card p-5">
+    <div className="align-center flex w-60 flex-col items-center rounded-xl border border-border bg-card p-5 text-center sm:w-auto sm:items-start sm:text-start">
       <div className="size-12 rounded-lg bg-gradient-to-br from-red-400 via-purple-400 to-blue-400 p-2 [&_svg]:stroke-primary-foreground [&_svg]:stroke-2">
         {icon}
       </div>

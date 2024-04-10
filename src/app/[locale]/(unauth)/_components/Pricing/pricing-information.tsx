@@ -14,7 +14,7 @@ export function PricingInformation({
   const t = useTranslations('PricingPlan');
 
   return (
-    <div className="grid grid-cols-3 gap-x-6">
+    <div className="flex flex-col gap-x-6 gap-y-8 sm:grid sm:grid-cols-3 sm:gap-y-0">
       {PricingPlanList.map((plan) => (
         <PricingCard
           key={plan.id}

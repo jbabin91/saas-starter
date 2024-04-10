@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 
+import { cn } from '@/libs/utils';
 import type { BillingInterval, PlanId } from '@/types/Subscription';
 
 export function PricingCard({
@@ -8,17 +9,24 @@ export function PricingCard({
   price,
   interval,
   button,
+  className,
 }: {
   children: React.ReactNode;
   planId: PlanId;
   price: number;
   interval: BillingInterval;
   button: React.ReactNode;
+  className?: string;
 }) {
   const t = useTranslations('PricingPlan');
 
   return (
-    <div className="rounded-xl border border-border px-6 py-8 text-center">
+    <div
+      className={cn(
+        'rounded-xl border border-border px-6 py-8 text-center',
+        className,
+      )}
+    >
       <div className="text-lg font-semibold">{t(`${planId}_plan_name`)}</div>
       <div className="mt-3 flex items-center justify-center">
         <div className="text-5xl font-bold">{price}</div>

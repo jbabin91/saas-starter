@@ -9,7 +9,7 @@ export function Footer() {
   const t = useTranslations('Footer');
 
   return (
-    <div className="mx-auto max-w-screen-lg pb-16 pt-0">
+    <div className="mx-10 max-w-screen-sm pb-16 pt-0 md:max-w-screen-lg lg:mx-auto">
       <div className="flex flex-col items-center text-center">
         <Logo />
         <ul className="mt-4 flex flex-row gap-x-8 text-lg [&_li:hover]:opacity-100 [&_li]:opacity-60">

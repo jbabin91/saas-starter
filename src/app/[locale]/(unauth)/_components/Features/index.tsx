@@ -10,7 +10,7 @@ export function Features() {
 
   return (
     <Background>
-      <div className="px-3 py-16">
+      <div className="mx-10 max-w-screen-sm px-3 py-16 md:max-w-screen-lg lg:mx-auto">
         <div className="mx-auto mb-12 max-w-screen-md text-center">
           <div className="bg-gradient-to-r from-red-400 via-purple-400 to-blue-400 bg-clip-text text-sm font-bold text-transparent">
             {t('section_subtitle')}
@@ -20,7 +20,7 @@ export function Features() {
             {t('section_description')}
           </div>
         </div>
-        <div className="mx-auto grid max-w-screen-lg grid-cols-3 gap-x-3 gap-y-8">
+        <div className="mx-auto flex max-w-screen-sm flex-col items-center gap-y-8 align-middle sm:grid sm:grid-cols-2 sm:gap-x-3  md:max-w-screen-lg lg:grid-cols-3">
           <FeatureCard icon={<Icons.Cube />} title={t('feature1_title')}>
             {t('feature_description')}
           </FeatureCard>

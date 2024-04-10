@@ -2,6 +2,7 @@ import '@/styles/globals.css';
 
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Head from 'next/head';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 
 import { ThemeProvider } from '@/components/theme-provider';
@@ -45,7 +46,9 @@ export default function RootLayout({
 
   return (
     <html suppressHydrationWarning lang={params.locale}>
-      <head />
+      <Head>
+        <title>Saas Starter</title>
+      </Head>
       <body className={inter.className}>
         <ThemeProvider
           disableTransitionOnChange

@@ -4,7 +4,7 @@ import { CTA } from '@/features/landing/components/cta';
 import { FAQ } from '@/features/landing/components/faq';
 import { Features } from '@/features/landing/components/Features';
 import { Hero } from '@/features/landing/components/hero';
-import { Pricing } from '@/features/landing/components/pricing';
+import { Pricing } from '@/features/landing/components/Pricing';
 
 export async function generateMetadata({
   params,

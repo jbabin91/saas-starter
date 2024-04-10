@@ -8,7 +8,7 @@ export function Hero() {
   const t = useTranslations('Hero');
 
   return (
-    <div className="mx-auto max-w-screen-lg py-48 pb-72">
+    <div className="mx-10 max-w-screen-sm py-48 pb-72 md:max-w-screen-lg lg:mx-auto">
       <div className="text-center">
         <a
           className={badgeVariants()}

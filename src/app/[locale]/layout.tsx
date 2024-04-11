@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 
+import { TailwindIndicator } from '@/components/tailwind-indicator';
 import { ThemeProvider } from '@/components/theme-provider';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -45,7 +46,6 @@ export default function RootLayout({
 
   return (
     <html suppressHydrationWarning lang={params.locale}>
-      <head />
       <body className={inter.className}>
         <ThemeProvider
           disableTransitionOnChange
@@ -55,6 +55,7 @@ export default function RootLayout({
         >
           <NextIntlClientProvider locale={params.locale} messages={messages}>
             {children}
+            <TailwindIndicator />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

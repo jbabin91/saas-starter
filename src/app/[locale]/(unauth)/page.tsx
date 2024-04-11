@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 
-import { CTA } from '@/app/[locale]/(unauth)/_components/cta';
+import { CTA } from '@/app/[locale]/(unauth)/_components/CTA';
 import { FAQ } from '@/app/[locale]/(unauth)/_components/faq';
 import { Features } from '@/app/[locale]/(unauth)/_components/Features';
 import { Hero } from '@/app/[locale]/(unauth)/_components/hero';

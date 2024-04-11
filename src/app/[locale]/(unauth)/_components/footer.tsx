@@ -9,12 +9,12 @@ export function Footer() {
 
   return (
     <div className="mx-10 max-w-screen-sm pb-16 pt-0 md:max-w-screen-lg lg:mx-auto">
-      <div className="flex flex-col items-center text-center">
+      <div className="flex flex-col items-center text-center ">
         <div className="flex items-center space-x-2">
           <Icons.Logo className="mr-1 size-5" />
           <span className="inline-block font-bold">{siteConfig.name}</span>
         </div>
-        <ul className="mt-4 flex flex-row gap-x-8 text-lg [&_li:hover]:opacity-100 [&_li]:opacity-60">
+        <ul className="mt-4 flex flex-row gap-x-8 text-sm md:text-lg [&_li:hover]:opacity-100 [&_li]:opacity-60">
           <li>
             <Link href="/">{t('product')}</Link>
           </li>
@@ -72,7 +72,8 @@ export function Footer() {
             </Link>
           </li>
         </ul>
-        <div className="mt-6 flex w-full justify-between border-t pt-3 text-sm text-muted-foreground">
+        <div className="mt-6 w-full border-b" />
+        <div className="flex pb-2 pt-3 text-sm text-muted-foreground md:w-full">
           © Copyright {new Date().getFullYear()} {siteConfig.name}.
         </div>
         <ul className="flex gap-x-4 font-medium [&_a:hover]:opacity-100 [&_a]:opacity-60">

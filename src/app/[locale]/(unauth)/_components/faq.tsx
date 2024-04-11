@@ -11,7 +11,7 @@ export function FAQ() {
   const t = useTranslations('FAQ');
 
   return (
-    <div className="mx-10 px-3 py-16 md:max-w-screen-lg lg:mx-auto">
+    <div className="mx-4 px-1 py-16 md:mx-auto md:max-w-screen-lg md:px-3">
       <Accordion className="w-full" type="multiple">
         <AccordionItem value="item-1">
           <AccordionTrigger>{t('question')}</AccordionTrigger>

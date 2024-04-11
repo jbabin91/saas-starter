@@ -11,7 +11,7 @@ import { MobileNav } from './mobile-nav';
 export function SiteHeader() {
   const t = useTranslations('Navbar');
   return (
-    <header className="mx-auto flex max-w-screen-lg items-center justify-between px-3 py-6 @container">
+    <header className="flex items-center justify-between px-4 py-6 @container md:px-2">
       <div>
         <Nav />
         <MobileNav />

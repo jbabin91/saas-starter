@@ -129,6 +129,65 @@ export const Icons = {
       <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
     </svg>
   ),
+  Logo: ({ className, ...props }: LucideProps) => (
+    <svg
+      aria-hidden="true"
+      className={cn('stroke-current stroke-2', className)}
+      data-icon="logo"
+      fill="none"
+      focusable="false"
+      role="img"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <title>Logo</title>
+      <path d="M0 0h24v24H0z" stroke="none" />
+      <rect height="8" rx="1" width="6" x="3" y="12" />
+      <rect height="12" rx="1" width="6" x="9" y="8" />
+      <rect height="16" rx="1" width="6" x="15" y="4" />
+      <path d="M4 20h14" />
+    </svg>
+  ),
+  Menu: ({ className, ...props }: LucideProps) => (
+    <svg
+      aria-hidden="true"
+      className={cn('size-5', className)}
+      data-icon="menu"
+      fill="none"
+      focusable="false"
+      role="img"
+      strokeWidth="1.5"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <title>Menu</title>
+      <path
+        d="M3 5H11"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
+      ></path>
+      <path
+        d="M3 12H16"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
+      ></path>
+      <path
+        d="M3 19H21"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
+      ></path>
+    </svg>
+  ),
   Moon: MoonIcon,
   MoreHorizontal: MoreHorizontalIcon,
   RSSFeed: ({ ...props }: LucideProps) => (

@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
 import { Icons } from '@/components/icons';
-import { Logo } from '@/components/logo';
 import { siteConfig } from '@/configs/siteConfig';
 
 export function Footer() {
@@ -11,7 +10,10 @@ export function Footer() {
   return (
     <div className="mx-10 max-w-screen-sm pb-16 pt-0 md:max-w-screen-lg lg:mx-auto">
       <div className="flex flex-col items-center text-center">
-        <Logo />
+        <div className="flex items-center space-x-2">
+          <Icons.Logo className="mr-1 size-5" />
+          <span className="inline-block font-bold">{siteConfig.name}</span>
+        </div>
         <ul className="mt-4 flex flex-row gap-x-8 text-lg [&_li:hover]:opacity-100 [&_li]:opacity-60">
           <li>
             <Link href="/">{t('product')}</Link>

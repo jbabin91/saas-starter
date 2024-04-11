@@ -1,5 +1,5 @@
 import { Footer } from './_components/footer';
-import { Navbar } from './_components/nav-bar';
+import { SiteHeader } from './_components/SiteHeader';
 
 export default function UnAuthLayout({
   children,
@@ -8,7 +8,7 @@ export default function UnAuthLayout({
 }>) {
   return (
     <>
-      <Navbar />
+      <SiteHeader />
       {children}
       <Footer />
     </>

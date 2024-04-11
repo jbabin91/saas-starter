@@ -1,3 +1,4 @@
+import containerQueries from '@tailwindcss/container-queries';
 import type { Config } from 'tailwindcss';
 import animate from 'tailwindcss-animate';
 
@@ -9,7 +10,7 @@ const config = {
     './src/**/*.{ts,tsx}',
   ],
   darkMode: ['class'],
-  plugins: [animate],
+  plugins: [animate, containerQueries],
   prefix: '',
   theme: {
     container: {

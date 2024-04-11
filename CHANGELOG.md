@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/jbabin91/saas-starter/compare/v1.2.0...v1.3.0) (2024-04-11)
+
+
+### Features
+
+* landing page ([#8](https://github.com/jbabin91/saas-starter/issues/8)) ([03bc8b9](https://github.com/jbabin91/saas-starter/commit/03bc8b9b3598f0c1ec773b71002e6ff140c82725))
+
 # [1.2.0](https://github.com/jbabin91/saas-starter/compare/v1.1.0...v1.2.0) (2024-04-05)
 
 

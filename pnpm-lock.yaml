@@ -147,8 +147,8 @@ dependencies:
     specifier: ^1.0.7
     version: 1.0.7(tailwindcss@3.4.13)
   vaul:
-    specifier: ^0.9.4
-    version: 0.9.4(@types/react-dom@18.2.24)(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^0.9.9
+    version: 0.9.9(@types/react-dom@18.2.24)(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0)
   zod:
     specifier: ^3.22.4
     version: 3.22.4
@@ -13995,8 +13995,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vaul@0.9.4(@types/react-dom@18.2.24)(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-pcyIy1nEk6798ReNQpbVH/T/dYnoJ3bwyq7jmSp134s+bSvpWoSWQthm3/jfsQRvHNYIEK4ZKbkHUJ3YfLfw1w==}
+  /vaul@0.9.9(@types/react-dom@18.2.24)(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-7afKg48srluhZwIkaU+lgGtFCUsYBSGOl8vcc8N/M3YQlZFlynHD15AE+pwrYdc826o7nrIND4lL9Y6b9WWZZQ==}
     peerDependencies:
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0

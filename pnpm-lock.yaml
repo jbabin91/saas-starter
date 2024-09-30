@@ -91,7 +91,7 @@ dependencies:
     version: 0.9.2(typescript@5.4.5)(zod@3.22.4)
   '@tailwindcss/container-queries':
     specifier: ^0.1.1
-    version: 0.1.1(tailwindcss@3.4.12)
+    version: 0.1.1(tailwindcss@3.4.13)
   clsx:
     specifier: ^2.1.1
     version: 2.1.1
@@ -142,10 +142,10 @@ dependencies:
     version: 2.2.2
   tailwind-variants:
     specifier: ^0.2.1
-    version: 0.2.1(tailwindcss@3.4.12)
+    version: 0.2.1(tailwindcss@3.4.13)
   tailwindcss-animate:
     specifier: ^1.0.7
-    version: 1.0.7(tailwindcss@3.4.12)
+    version: 1.0.7(tailwindcss@3.4.13)
   vaul:
     specifier: ^0.9.4
     version: 0.9.4(@types/react-dom@18.2.24)(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0)
@@ -258,7 +258,7 @@ devDependencies:
     version: 0.8.0(eslint@8.57.1)(typescript@5.4.5)
   eslint-plugin-tailwindcss:
     specifier: ^3.17.4
-    version: 3.17.4(tailwindcss@3.4.12)
+    version: 3.17.4(tailwindcss@3.4.13)
   eslint-plugin-unicorn:
     specifier: ^52.0.0
     version: 52.0.0(eslint@8.57.1)
@@ -290,8 +290,8 @@ devDependencies:
     specifier: ^8.0.10
     version: 8.0.10(react-dom@18.2.0)(react@18.2.0)
   tailwindcss:
-    specifier: ^3.4.12
-    version: 3.4.12
+    specifier: ^3.4.13
+    version: 3.4.13
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -5293,12 +5293,12 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.12):
+  /@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.13):
     resolution: {integrity: sha512-p18dswChx6WnTSaJCSGx6lTmrGzNNvm2FtXmiO6AuA1V4U5REyoqwmT6kgAsIMdjo07QdAfYXHJ4hnMtfHzWgA==}
     peerDependencies:
       tailwindcss: '>=3.2.0'
     dependencies:
-      tailwindcss: 3.4.12
+      tailwindcss: 3.4.13
     dev: false
 
   /@testing-library/dom@9.3.4:
@@ -8485,7 +8485,7 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.12):
+  /eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.13):
     resolution: {integrity: sha512-gJAEHmCq2XFfUP/+vwEfEJ9igrPeZFg+skeMtsxquSQdxba9XRk5bn0Bp9jxG1VV9/wwPKi1g3ZjItu6MIjhNg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
@@ -8493,7 +8493,7 @@ packages:
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.47
-      tailwindcss: 3.4.12
+      tailwindcss: 3.4.13
     dev: true
 
   /eslint-plugin-unicorn@52.0.0(eslint@8.57.1):
@@ -13297,26 +13297,26 @@ packages:
       '@babel/runtime': 7.24.4
     dev: false
 
-  /tailwind-variants@0.2.1(tailwindcss@3.4.12):
+  /tailwind-variants@0.2.1(tailwindcss@3.4.13):
     resolution: {integrity: sha512-2xmhAf4UIc3PijOUcJPA1LP4AbxhpcHuHM2C26xM0k81r0maAO6uoUSHl3APmvHZcY5cZCY/bYuJdfFa4eGoaw==}
     engines: {node: '>=16.x', pnpm: '>=7.x'}
     peerDependencies:
       tailwindcss: '*'
     dependencies:
       tailwind-merge: 2.2.2
-      tailwindcss: 3.4.12
+      tailwindcss: 3.4.13
     dev: false
 
-  /tailwindcss-animate@1.0.7(tailwindcss@3.4.12):
+  /tailwindcss-animate@1.0.7(tailwindcss@3.4.13):
     resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
-      tailwindcss: 3.4.12
+      tailwindcss: 3.4.13
     dev: false
 
-  /tailwindcss@3.4.12:
-    resolution: {integrity: sha512-Htf/gHj2+soPb9UayUNci/Ja3d8pTmu9ONTfh4QY8r3MATTZOzmv6UYWF7ZwikEIC8okpfqmGqrmDehua8mF8w==}
+  /tailwindcss@3.4.13:
+    resolution: {integrity: sha512-KqjHOJKogOUt5Bs752ykCeiwvi0fKVkr5oqsFNt/8px/tA8scFPIlkygsf6jXrfCqGHz7VflA6+yytWuM+XhFw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:

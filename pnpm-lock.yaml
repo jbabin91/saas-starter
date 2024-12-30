@@ -278,11 +278,11 @@ devDependencies:
     specifier: ^8.4.49
     version: 8.4.49
   prettier:
-    specifier: ^3.3.3
-    version: 3.3.3
+    specifier: ^3.4.2
+    version: 3.4.2
   prettier-plugin-packagejson:
     specifier: ^2.4.14
-    version: 2.4.14(prettier@3.3.3)
+    version: 2.4.14(prettier@3.4.2)
   semantic-release:
     specifier: ^23.0.8
     version: 23.0.8(typescript@5.4.5)
@@ -4809,7 +4809,7 @@ packages:
       jscodeshift: 0.15.2(@babel/preset-env@7.24.4)
       leven: 3.1.0
       ora: 5.4.1
-      prettier: 3.3.3
+      prettier: 3.4.2
       prompts: 2.4.2
       read-pkg-up: 7.0.1
       semver: 7.6.0
@@ -4848,7 +4848,7 @@ packages:
       globby: 11.1.0
       jscodeshift: 0.15.2(@babel/preset-env@7.24.4)
       lodash: 4.17.21
-      prettier: 3.3.3
+      prettier: 3.4.2
       recast: 0.23.6
       tiny-invariant: 1.3.3
     transitivePeerDependencies:
@@ -12358,7 +12358,7 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-packagejson@2.4.14(prettier@3.3.3):
+  /prettier-plugin-packagejson@2.4.14(prettier@3.4.2):
     resolution: {integrity: sha512-sli+gV5tW7uxvzDZQscaBtSfbyAW2ToL6n/HGt51PipwX9vI7M54vefG0mKSfklVkT29TNGO6Mo6g8c6Z79gmw==}
     peerDependencies:
       prettier: '>= 1.16.0'
@@ -12366,13 +12366,13 @@ packages:
       prettier:
         optional: true
     dependencies:
-      prettier: 3.3.3
+      prettier: 3.4.2
       sort-package-json: 2.10.0
       synckit: 0.9.0
     dev: true
 
-  /prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+  /prettier@3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true

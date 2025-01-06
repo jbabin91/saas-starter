@@ -254,8 +254,8 @@ devDependencies:
     specifier: ^1.1.2
     version: 1.1.2
   eslint-plugin-storybook:
-    specifier: ^0.11.1
-    version: 0.11.1(eslint@8.57.1)(typescript@5.4.5)
+    specifier: ^0.11.2
+    version: 0.11.2(eslint@8.57.1)(typescript@5.4.5)
   eslint-plugin-tailwindcss:
     specifier: ^3.17.5
     version: 3.17.5(tailwindcss@3.4.17)
@@ -4839,7 +4839,7 @@ packages:
       '@babel/core': 7.24.4
       '@babel/preset-env': 7.24.4(@babel/core@7.24.4)
       '@babel/types': 7.24.0
-      '@storybook/csf': 0.1.5
+      '@storybook/csf': 0.1.12
       '@storybook/csf-tools': 8.0.10
       '@storybook/node-logger': 8.0.10
       '@storybook/types': 8.0.10
@@ -4863,7 +4863,7 @@ packages:
     dependencies:
       '@radix-ui/react-slot': 1.1.0(@types/react@18.2.75)(react@18.2.0)
       '@storybook/client-logger': 8.0.10
-      '@storybook/csf': 0.1.5
+      '@storybook/csf': 0.1.12
       '@storybook/global': 5.0.0
       '@storybook/icons': 1.2.9(react-dom@18.2.0)(react@18.2.0)
       '@storybook/theming': 8.0.10(react-dom@18.2.0)(react@18.2.0)
@@ -4928,7 +4928,7 @@ packages:
       '@storybook/channels': 8.0.10
       '@storybook/core-common': 8.0.10
       '@storybook/core-events': 8.0.10
-      '@storybook/csf': 0.1.5
+      '@storybook/csf': 0.1.12
       '@storybook/csf-tools': 8.0.10
       '@storybook/docs-mdx': 3.0.0
       '@storybook/global': 5.0.0
@@ -5002,7 +5002,7 @@ packages:
       '@babel/parser': 7.24.4
       '@babel/traverse': 7.24.1
       '@babel/types': 7.24.0
-      '@storybook/csf': 0.1.5
+      '@storybook/csf': 0.1.12
       '@storybook/types': 8.0.10
       fs-extra: 11.2.0
       recast: 0.23.6
@@ -8803,11 +8803,11 @@ packages:
       requireindex: 1.2.0
     dev: true
 
-  /eslint-plugin-storybook@0.11.1(eslint@8.57.1)(typescript@5.4.5):
-    resolution: {integrity: sha512-yGKpAYkBm/Q2hZg476vRUAvd9lAccjjSvzU5nYy3BSQbKTPy7uopx7JEpwk2vSuw4weTMZzWF64z9/gp/K5RCg==}
+  /eslint-plugin-storybook@0.11.2(eslint@8.57.1)(typescript@5.4.5):
+    resolution: {integrity: sha512-0Z4DUklJrC+GHjCRXa7PYfPzWC15DaVnwaOYenpgXiCEijXPZkLKCms+rHhtoRcWccP7Z8DpOOaP1gc3P9oOwg==}
     engines: {node: '>= 18'}
     peerDependencies:
-      eslint: '>=6'
+      eslint: '>=8'
     dependencies:
       '@storybook/csf': 0.1.12
       '@typescript-eslint/utils': 8.18.0(eslint@8.57.1)(typescript@5.4.5)

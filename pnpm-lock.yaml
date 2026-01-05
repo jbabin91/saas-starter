@@ -189,10 +189,10 @@ devDependencies:
     version: 8.6.15(esbuild@0.20.2)(next@14.1.4)(react-dom@18.2.0)(react@18.2.0)(storybook@8.6.15)(typescript@5.9.3)(webpack@5.91.0)
   '@storybook/react':
     specifier: ^8.6.15
-    version: 8.6.15(@storybook/test@8.6.14)(react-dom@18.2.0)(react@18.2.0)(storybook@8.6.15)(typescript@5.9.3)
+    version: 8.6.15(@storybook/test@8.6.15)(react-dom@18.2.0)(react@18.2.0)(storybook@8.6.15)(typescript@5.9.3)
   '@storybook/test':
-    specifier: ^8.6.14
-    version: 8.6.14(storybook@8.6.15)
+    specifier: ^8.6.15
+    version: 8.6.15(storybook@8.6.15)
   '@total-typescript/ts-reset':
     specifier: ^0.6.1
     version: 0.6.1
@@ -1803,7 +1803,7 @@ packages:
     resolution: {integrity: sha512-3bfqkzuR1KLx57nZfjr2NLnFOobvyS0aTszaEGCGqmYMVDRaGvgIZbjGSV/MHSSmLgQ/b9JFHQ5xm5WRZYd+XQ==}
     requiresBuild: true
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
     optional: true
 
@@ -5083,34 +5083,6 @@ packages:
       storybook: 8.6.15(prettier@3.7.4)
     dev: true
 
-  /@storybook/react@8.6.15(@storybook/test@8.6.14)(react-dom@18.2.0)(react@18.2.0)(storybook@8.6.15)(typescript@5.9.3):
-    resolution: {integrity: sha512-hdnhlJg+YkpPMOw2hvK7+mhdxAbguA+TFTIAzVV9CeUYoHDIZAsgeKVhRmgZGN20NGjRN5ZcwkplAMJnF9v+6w==}
-    engines: {node: '>=18.0.0'}
-    peerDependencies:
-      '@storybook/test': 8.6.15
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
-      storybook: ^8.6.15
-      typescript: '>= 4.2.x'
-    peerDependenciesMeta:
-      '@storybook/test':
-        optional: true
-      typescript:
-        optional: true
-    dependencies:
-      '@storybook/components': 8.6.15(storybook@8.6.15)
-      '@storybook/global': 5.0.0
-      '@storybook/manager-api': 8.6.15(storybook@8.6.15)
-      '@storybook/preview-api': 8.6.15(storybook@8.6.15)
-      '@storybook/react-dom-shim': 8.6.15(react-dom@18.2.0)(react@18.2.0)(storybook@8.6.15)
-      '@storybook/test': 8.6.14(storybook@8.6.15)
-      '@storybook/theming': 8.6.15(storybook@8.6.15)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      storybook: 8.6.15(prettier@3.7.4)
-      typescript: 5.9.3
-    dev: true
-
   /@storybook/react@8.6.15(@storybook/test@8.6.15)(react-dom@18.2.0)(react@18.2.0)(storybook@8.6.15)(typescript@5.9.3):
     resolution: {integrity: sha512-hdnhlJg+YkpPMOw2hvK7+mhdxAbguA+TFTIAzVV9CeUYoHDIZAsgeKVhRmgZGN20NGjRN5ZcwkplAMJnF9v+6w==}
     engines: {node: '>=18.0.0'}
@@ -6169,7 +6141,7 @@ packages:
     resolution: {integrity: sha512-6t10qk83GOG8p0vKmaCr8eiilZwO171AvbROMtvvNiwrTly62t+7XkA8RdIIVbpMhCASAsxgAzdRSwh6nw/5Dg==}
     engines: {node: '>=4'}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
 
   /autoprefixer@10.4.23(postcss@8.5.6):
@@ -6483,7 +6455,7 @@ packages:
     resolution: {integrity: sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw==}
     dependencies:
       pascal-case: 3.1.2
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
 
   /camelcase-css@2.0.1:
@@ -7306,7 +7278,7 @@ packages:
     resolution: {integrity: sha512-Kv5nKlh6yRrdrGvxeJ2e5y2eRUpkUosIW4A2AS38zwSz27zu7ufDwQPi5Jhs3XAlGNetl3bmnGhQsMtkKJnj3w==}
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
 
   /dot-prop@5.3.0:
@@ -9810,7 +9782,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
 
   /lru-cache@10.2.0:
@@ -10136,7 +10108,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
 
   /node-abort-controller@3.1.1:
@@ -10582,7 +10554,7 @@ packages:
     resolution: {integrity: sha512-RXlj7zCYokReqWpOPH9oYivUzLYZ5vAPIfEmCTNViosC78F8F0H9y7T7gG2M39ymgutxF5gcFEsyZQSph9Bp3A==}
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
 
   /parent-module@1.0.1:
@@ -10654,7 +10626,7 @@ packages:
     resolution: {integrity: sha512-uWlGT3YSnK9x3BQJaOdcZwrnV6hPpd8jFH1/ucpiLRPh/2zCVJKS19E4GvYHvaCcACn3foXZ0cLB9Wrx1KGe5g==}
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
 
   /path-browserify@1.0.1:
@@ -11182,7 +11154,7 @@ packages:
       '@types/react': 18.2.75
       react: 18.2.0
       react-style-singleton: 2.2.3(@types/react@18.2.75)(react@18.2.0)
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: false
 
   /react-remove-scroll@2.5.5(@types/react@18.2.75)(react@18.2.0):
@@ -11237,7 +11209,7 @@ packages:
       react: 18.2.0
       react-remove-scroll-bar: 2.3.8(@types/react@18.2.75)(react@18.2.0)
       react-style-singleton: 2.2.3(@types/react@18.2.75)(react@18.2.0)
-      tslib: 2.6.2
+      tslib: 2.8.1
       use-callback-ref: 1.3.3(@types/react@18.2.75)(react@18.2.0)
       use-sidecar: 1.1.3(@types/react@18.2.75)(react@18.2.0)
     dev: false
@@ -11282,7 +11254,7 @@ packages:
       '@types/react': 18.2.75
       get-nonce: 1.0.1
       react: 18.2.0
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: false
 
   /react@18.2.0:
@@ -11391,7 +11363,7 @@ packages:
       esprima: 4.0.1
       source-map: 0.6.1
       tiny-invariant: 1.3.3
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
 
   /redent@3.0.0:
@@ -12650,7 +12622,6 @@ packages:
 
   /tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
-    dev: false
 
   /tty-browserify@0.0.1:
     resolution: {integrity: sha512-C3TaO7K81YvjCgQH9Q1S3R3P3BtN3RIM8n+OvX4il1K1zgE8ZhI0op7kClgkxtutIE8hQrcrHBXvIheqKUUCxw==}
@@ -12911,7 +12882,7 @@ packages:
     dependencies:
       '@types/react': 18.2.75
       react: 18.2.0
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: false
 
   /use-intl@3.26.5(react@18.2.0):
@@ -12953,7 +12924,7 @@ packages:
       '@types/react': 18.2.75
       detect-node-es: 1.1.0
       react: 18.2.0
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: false
 
   /util-deprecate@1.0.2:

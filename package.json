@@ -142,7 +142,7 @@
     "is-ci": "^3.0.1",
     "lint-staged": "^15.5.2",
     "next-sitemap": "^4.2.3",
-    "postcss": "^8.5.16",
+    "postcss": "^8.5.19",
     "prettier": "^3.9.5",
     "prettier-plugin-packagejson": "^2.5.22",
     "semantic-release": "^23.1.1",
